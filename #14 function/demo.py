@@ -12,17 +12,17 @@ def sub(n1, n2):
 
 def mul(n1, n2):
     return n1 * n2
-def dev(n1, n2):
+def div(n1, n2):
     return n1 // n2
 
 a = add(2,3)
 s = sub(6,1)
 m = mul(5,1)
-d = dev(a,s)
+d = div(a,s)
 print("Add", a)
 print("Sub", s)
 print("Mul", m)
-print("Dev", d)
+print("Div", d)
 
 
 print("return more than one value values")
